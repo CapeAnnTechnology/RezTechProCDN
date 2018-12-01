@@ -1,6 +1,6 @@
 {
   "name": "reztechprocdn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CDN File Storage Wrapper",
   "main": "index.js",
   "scripts": {
