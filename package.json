@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/CapeAnnTechnology/RezTechProCDN/issues"
   },
-  "homepage": "https://github.com/CapeAnnTechnology/RezTechProCDN#readme"
+  "homepage": "https://github.com/CapeAnnTechnology/RezTechProCDN#readme",
+  "dependencies": {
+    "aws-sdk": "^2.368.0"
+  }
 }
