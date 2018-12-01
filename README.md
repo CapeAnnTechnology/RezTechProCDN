@@ -1,11 +1,20 @@
 # RezTechProCDN
 
+## Install into package.json
+
+```bash
+npm install --save CapeAnnTechnology/RezTechProCDN#master
+```
+
+## Test Methods
 
 ```bash
 AMAZON_ACCESS_KEY=###################### AMAZON_SECRET_ACCESS_KEY=###################### AMAZON_BUCKET_NAME=###################### nodemon tests/app.js -L
 ```
 
-## Upload Method
+## Use Cases
+
+### Upload Method
 
 ```javascript
 // upload ( filePath, folder )
