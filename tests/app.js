@@ -4,12 +4,12 @@ const Storage = require('../index');
 let storage = new Storage();
 
 // upload ( filePath, folder )
-storage.upload( "./data/file.txt","5b36b0b3d4fbb1070044790a").then((location)=>{
+storage.upload( "./data/file.txt","data").then((location)=>{
   console.log("Finished Upload: "+location);
 })
 .then(()=>{
   // Delete ( filename, folder)
-  storage.delete( "file.txt","5b36b0b3d4fbb1070044790a").then((data)=>{
+  storage.delete( "file.txt","data").then((data)=>{
     console.log("Deleted: "+data.VersionId);
   }).catch(function(err) {
     console.log(err);
@@ -24,11 +24,11 @@ storage.upload( "./data/file.txt","5b36b0b3d4fbb1070044790a").then((location)=>{
 // Promise Functions
 
 const uploadObject = () => {
-	return storage.upload( "./data/file.txt","5b36b0b3d4fbb1070044790a");
+	return storage.upload( "./data/file.txt","data");
 };
 
 const deleteObject = () => {
-	return storage.delete( "file.txt","5b36b0b3d4fbb1070044790a");
+	return storage.delete( "file.txt","data");
 };
 
 // Promise.all([
