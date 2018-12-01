@@ -1,0 +1,23 @@
+{
+  "name": "reztechprocdn",
+  "version": "1.0.2",
+  "description": "CDN File Storage Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapeAnnTechnology/RezTechProCDN.git"
+  },
+  "keywords": [
+    "Amazon",
+    "s3"
+  ],
+  "author": "Bradford Knowlton",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CapeAnnTechnology/RezTechProCDN/issues"
+  },
+  "homepage": "https://github.com/CapeAnnTechnology/RezTechProCDN#readme"
+}
